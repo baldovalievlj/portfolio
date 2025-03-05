@@ -8,9 +8,9 @@
 	];
 </script>
 
-<header>
+<header class="h-full align-middle">
 	<h1>
-		<b>Ljupcho</b> Baldovaliev
+		Ljupcho Baldovaliev
 	</h1>
 	<div class="">
 		{#each tabs as tab, index}
@@ -19,4 +19,6 @@
 			</a>
 		{/each}
 	</div>
+
+	<img src="/assets/smile.png" class="size-1/5 p-6 rounded-full border-2 backdrop-blur bg-amber-50" alt="avatar"/>
 </header>
